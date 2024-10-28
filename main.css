@@ -6,4 +6,34 @@
 
 body{
     background-color: black;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 374px;
+    height: 500px;
+    border-radius: 7px;
+    margin-top: 7rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.jessica-image{
+    border-radius: 10rem;
+    
+}
+
+.avatar-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
