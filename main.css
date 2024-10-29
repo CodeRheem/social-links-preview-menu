@@ -5,23 +5,23 @@
 }
 
 body{
-    background-color: black;
+    background-color: hsl(0, 0%, 8%);
     font-family: "Inter", sans-serif;
 }
 
 .container{
-    background-color: white;
-    width: 374px;
+    background-color:  hsl(0, 0%, 12%);
+    width: 345px;
     height: 500px;
     border-radius: 7px;
     margin-top: 7rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .jessica-image{
     border-radius: 10rem;
-    
+    margin-top: 1.5rem;
 }
 
 .avatar-text{
@@ -29,6 +29,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: hsl(0, 0%, 100%);
 }
 
 .social-links{
@@ -36,4 +37,36 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+
+.jessica{
+    margin-top: 1rem;
+}
+
+.address{
+    margin-top: 0.5rem;
+    color:  hsl(75, 94%, 57%);
+}
+
+.text-quote{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.link{
+    text-decoration: none;
+    border-radius: 4px;
+    width: 90%;
+    height: 33px;
+    text-align: center;
+    align-content: center;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+}
+
+a:hover{
+    color: hsl(75, 94%, 57%);
 }
