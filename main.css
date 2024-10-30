@@ -70,3 +70,12 @@ body{
 a:hover{
     color: hsl(75, 94%, 57%);
 }
+
+@media  (min-width: 800px) {
+    body{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+}
